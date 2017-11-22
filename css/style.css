@@ -1,0 +1,434 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+html,
+body {
+
+    height: 100%;
+
+}
+
+p {
+
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+
+    height: 100%;
+    background-image: url(images/bonsai-tree-care.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #41464b;
+}
+
+#home-content-box {
+
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h3 {
+
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+
+}
+
+/*=======================================
+          Parallax
+========================================*/
+
+.bg-parallax {
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*=======================================
+          Buttons
+========================================*/
+
+#btn-general {
+    color: black;
+    background: #f7b809;
+    border-width: 3px solid;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+#btn-generala {
+    color: #34c6d3;
+    background: transparent;
+    border-color: #34c6d3;
+    border-width: 3px solid;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 0;
+    text-transform: uppercase;
+
+}
+
+
+#btn-general:hover {
+    color: #f7b809;
+    border-color: #f7b809;
+    border-width: 4px solid;
+    background: transparent;
+}
+
+#btn-generala:hover {
+    color: white;
+    background: #34c6d3;
+}
+
+
+/*=======================================
+          animate
+========================================*/
+
+#home-heading,
+#home-cover,
+#home-btn {
+    animation-direction: .5s;
+
+}
+
+#home-cover {
+
+    animation-delay: .1s;
+
+}
+
+#home-heading {
+
+    animation-delay: .5s;
+
+}
+
+#home-btn {
+
+    animation-delay: 1s;
+
+}
+
+/*=======================================
+         content box(generics)
+========================================*/
+
+.content-box {
+
+    padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+
+/*=======================================
+         services section
+========================================*/
+
+.service-item {
+
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon i {
+
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+
+    color: white;
+    background-color: #34c6d3;
+}
+
+.service-item-title h3 {
+
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.service-item-dec p {
+
+    margin: 0;
+    padding-left: 85px;
+}
+
+/*=======================================
+             About   
+========================================*/
+
+#about-content-box {
+
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+
+    text-align: left;
+}
+
+#about .content-title-underline {
+
+    margin: 0 0 30px 0;
+}
+
+#about-desc p {
+
+    margin-bottom: 30px;
+}
+
+.about-bg-diagonal {
+
+    height: 700px;
+    width: 60%;
+    float: right;
+    background-image: url(images/t1.jpg);
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+}
+
+/*=======================================
+             Work 
+========================================*/
+
+.row.no-gutter [class*=col-] {
+
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.img-wrapper {
+
+    overflow: hidden;
+}
+
+.img-wrapper img {
+
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/*=======================================
+          team
+========================================*/
+
+.team-member {
+
+    margin: 0 15px;
+}
+
+.team-member-info {
+
+    padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-designation {
+
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+/*=======================================
+          social icons
+========================================*/
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+
+    font-size: 17px;
+}
+
+.icon-gray {
+
+    color: #64707b;
+}
+
+.icon-white{
+    color: #fff;
+}
+
+.social-icon i:hover {
+
+    color: #34c6d3;
+}
+
+/*=======================================
+          contact
+========================================*/
+footer {
+    
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0,0,0,0.1);
+}
+#contact-left h3,#contact-right h3 {
+
+    color: white;
+    font-size: 27px;
+    font-weight: 700;
+}
+#contact-left p {
+    
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    
+    
+    background-repeat: no-repeat;
+}
+address {
+    color: #fff;
+    
+}
+
+address strong,
+#phone-email b {
+    
+    letter-spacing: 1px;
+    
+}
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16 px;
+    margin-bottom: 20px;
+    color: white;
+}
+#sent-btn {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
