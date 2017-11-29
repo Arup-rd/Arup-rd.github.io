@@ -7,6 +7,8 @@ html,
 body {
 
     height: 100%;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -81,6 +83,7 @@ h3 {
     padding: 12px 26px 12px 26px;
     font-size: 16px;
     font-weight: 400;
+    display: inline-block;
     text-transform: uppercase;
 
 }
@@ -96,6 +99,28 @@ h3 {
     border-radius: 0;
     text-transform: uppercase;
 
+}
+#btn-generale {
+    border-color: green;
+    border-radius: 3px;
+    background: green;
+    font-size: 66px;
+    margin-left: 10px;
+    padding: 15px;
+}
+#btn-generalei {
+    
+    border-color: #ea5d00;
+    border-radius: 3px;
+    background: #ea5d00;
+    font-size: 66px;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+#btn-generale:hover {
+    border-color: green;
+    color: #ea5d00;
 }
 
 
@@ -396,39 +421,110 @@ form .form-control {
     margin-bottom: 20px;
     color: white;
 }
-#sent-btn {
-    padding-bottom: 10px;
+
+/*=======================================
+          Footer
+========================================*/
+
+#footer-bottom {
+    
+    background-color: rgba(0,0,0,0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+#footer-cpyrights p {
+    
+    margin: 0;
+    color: white;
+}
+#footer-menu {
+    
+    color: white;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+#footer-menu ul {
+    
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+#footer-menu ul li {
+    
+    display: inline-block;
+}
+#footer-menu a {
+    
+    color: white; 
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
+#footer-menu a:hover {
+    
+    color: #34c6d3;
+}
 
+/*=======================================
+        Navigation
+========================================*/
 
+.navbar {
+    
+    padding: 20px 0;
+}
 
+#lala {
+    
+    background-color: #000b11;
+    opacity: .8;
+    padding: 7px 0;
+}
 
+.oronno-nav-wrapper {
+    
+    padding: 0 85px;
+}
 
+#nav-ul {
+    
+    float: right
+}
 
+#nav-ul li > a {
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
+#nav-ul li > a:hover , #nav-ul li > a:focus {
+    
+    background: none;
+    color: #34c6d3;
+}
 
+#nav-ul li.active > a {
+    
+    color: #34c6d3;
+}
 
+.navbar-brand b {
+    
+    font-size: 30px;
+    color: #f7b809;
+    text-transform: uppercase;
+}
+.navbar-brand b:hover {
+    
+    color: #ea5d00;;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*=======================================
+          log in
+========================================*/
