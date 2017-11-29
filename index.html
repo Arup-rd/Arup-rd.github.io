@@ -12,7 +12,7 @@
     <title>Oronno Foundation</title>
 
     <!--title icon-->
-    <link rel="shortcut icon" href="images/xe.jpg" />
+    <link rel="shortcut icon" href="css/images/xe.jpg" />
 
     <!-- google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
@@ -40,7 +40,54 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#lala" data-offset="65">
+   
+       <header>
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="lala" role="navigation">
+           
+           <div class="container-fluid">
+               
+               <div class="oronno-nav-wrapper">
+                   
+                   <div class="navbar-header">
+                      
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#oronno-menu">
+                          
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          
+                      </button>
+                       
+                       <a class="navbar-brand animated zoomIn" href="#home">
+                          <b>Oronno foundatin</b> 
+                       </a>
+                       
+                   </div>
+                   <div class="collapse navbar-collapse" id="oronno-menu">
+                           
+                           <ul class="nav navbar-nav animated fadeIn" id="nav-ul">
+                                <li><a href="#home">home</a></li>
+                                <li><a href="#services">services</a></li>
+                                <li><a href="#about">about us</a></li>
+                                <li><a href="#work">our work</a></li>
+                                <li><a href="#team">our team</a></li>
+                                <li><a href="#newsfeed">newsfeed</a></li>
+                                <li><a class="btn btn-primary" id="btn-generale" href="#login" role="button" title="log in"><b>log in</b></a></li>
+                                <li><a class="btn btn-info" id="btn-generalei" href="#signup" role="button" title="sign up"><b>sign up</b></a></li>
+                           </ul>
+                              
+                   </div>
+                   
+               </div>
+               
+           </div>
+           
+        </nav>
+        
+    </header>
 
     <!------home------->
     <section id="home">
@@ -264,7 +311,7 @@
                             <div id="about-content-box-inner">
 
                                 <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <h3>about orrono</h3>
+                                    <h3>about oronno</h3>
                                     <div class="content-title-underline"></div>
                                 </div>
                                 <div id="about-desc" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
@@ -583,10 +630,35 @@
             </div>
         
         </div>
+        
+        <div id="footer-bottom">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6">
+                    
+                    <div id="footer-cpyrights">
+                        <p>copyrights &copy;2017 all rights reserved by oronno foundation</p>
+                    </div>
+                    
+                 </div> 
+                 <div class="col-md-6">
+                     
+                     <div id="footer-menu">
+                         <ul>
+                             <li><a href="#home">Home</a></li>
+                             <li><a href="#services">services</a></li>
+                             <li><a href="#about">about</a></li>
+                             <li><a href="#work">work</a></li>
+                             <li><a href="#team">team</a></li>
+                         </ul>
+                     </div>
+                     
+                 </div>
+             </div>
+         </div>
+     </div>
     
     </footer>
-
-
 
     <!--jquery-->
     <script src="js/jquery.js"></script>
@@ -605,8 +677,7 @@
 
     <!----owl carousel JS--->
     <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    
 
 </body>
-
-
 </html>
